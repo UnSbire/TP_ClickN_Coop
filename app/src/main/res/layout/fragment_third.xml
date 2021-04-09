@@ -1,72 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="48dp" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="510dp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="61dp" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:rotation="180"
-        android:text="0"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="180dp" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="262dp"
+            tools:layout_editor_absoluteY="61dp" />
 
-    <EditText
-        android:id="@+id/editTextTime3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="time"
-        android:rotation="180"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="257dp" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="262dp"
+            tools:layout_editor_absoluteY="591dp" />
 
-    <EditText
-        android:id="@+id/editTextTime4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="time"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="381dp" />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="591dp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:rotation="180"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="48dp" />
+        <EditText
+            android:id="@+id/editTextTime3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="343dp" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="624dp" />
+        <EditText
+            android:id="@+id/editTextTime4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time"
+            android:rotation="180"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="265dp" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="624dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="459dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            android:text="0"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="192dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
