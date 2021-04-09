@@ -48,7 +48,7 @@
         tools:layout_editor_absoluteY="385dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewResult2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotation="180"
@@ -57,7 +57,7 @@
         tools:layout_editor_absoluteY="548dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
